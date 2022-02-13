@@ -1,4 +1,4 @@
-package main
+package solution
 
 import (
 	"github.com/kyokomi/emoji/v2"
@@ -7,6 +7,7 @@ import (
 func getMessage() string {
 	return "Hello :world_map:!"
 }
+
 func main() {
-	emoji.Println(emoji.Sprint(getMessage()))
+	emoji.Sprint(getMessage())
 }
