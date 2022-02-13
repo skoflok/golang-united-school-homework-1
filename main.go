@@ -5,7 +5,5 @@ import (
 )
 
 func main() {
-	mes := emoji.Sprint("Hello 🗺️")
-
-	emoji.Print(mes)
+	emoji.Sprint("Hello :world_map:!")
 }
