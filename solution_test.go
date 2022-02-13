@@ -8,7 +8,7 @@ import (
 
 func TestGetMessage(t *testing.T) {
 	var e string = "Hello :world_map:!"
-	m := getMessage()
+	m := GetMessage()
 	assert.Equal(t, e, m)
 	if m != "Hello :world_map:!" {
 		t.Errorf("Expect `%s`, got `%s`", e, m)

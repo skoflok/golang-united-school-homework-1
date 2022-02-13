@@ -4,10 +4,10 @@ import (
 	"github.com/kyokomi/emoji/v2"
 )
 
-func getMessage() string {
+func GetMessage() string {
 	return "Hello :world_map:!"
 }
 
 func main() {
-	emoji.Sprint(getMessage())
+	emoji.Sprint(GetMessage())
 }
